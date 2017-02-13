@@ -1,5 +1,5 @@
 ![CF](https://i.imgur.com/7v5ASc8.png)  Lab 06: AJAX and JSON
-=======
+
 [Code of Conduct](https://github.com/codefellows/code-of-conduct)
 
 ## Submission Instructions
@@ -16,7 +16,6 @@ When you are finished with lab, follow these steps to submit your work. Create o
 ---
 
 ## Learning Objectives
-<!-- the learning objectives from the corresponding class number -->
 * Identify when apps need persistence, to improve the UX and isolate the model logic in the code base.
 * Understand how the browser uses the request-response (WRRC) cycle to render an HTML file or AJAX call.
   * Review the use of jQuery's Deferred Object (`$.get().then().catch()`)
@@ -26,7 +25,7 @@ When you are finished with lab, follow these steps to submit your work. Create o
 ---
 
 ## Resources  
-<!-- a list of links if any are necessary for the assignment-->
+
 [MDN let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
 [MDN const](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
 [jQuery API Reference (see AJAX Methods and the far right)](https://oscarotero.com/jquery/)
@@ -34,7 +33,7 @@ When you are finished with lab, follow these steps to submit your work. Create o
 ---
 
 ## Feature Tasks  
-<!-- a list or description of the feature tasks you want the students to implement -->
+
 1. Start by looking over what's new in the codebase. There is a /data folder! There are some `// REVIEW` comments! Practice your code-reading skills.
 1. In `index.html`, after we load all our script tags, we need to kick off the retrieval of data, and rendering of the page. What's the right method to call?
 1. Fill in what's needed in article.js, so that all the articles are loaded and rendered, and retrieved with AJAX.
@@ -56,12 +55,10 @@ function(data, message, xhr) {
 ---
 
 ## Rubric  
-<!-- a list of grading requirements with associated points, scaling to 10pts possible -->
+
 Criteria | Pts
 ---|---
 Meets all Assignment Reqs | 6
 Uses idiomatic code style | 3
 Follows proper Git workflow | 1
 **Total** | **10**
-
-<!-- links -->
